@@ -11,7 +11,7 @@ function Login(){ // $
     data: { UserName: username, PassWord: password }
   })
   .then(response => {
-      console.log(response.data); 
+      console.log(response); 
       alert("Đăng nhập thành công");  //hiển thị popup thông báo     
       window.location.href = './Home.html'; //điều hướng trang                  
     })
